@@ -27,7 +27,7 @@ public class Matricula extends BaseEntity {
     
     
     @ManyToOne
-    @JoinColumn(name = "aluno_id", nullable = false)
+    @JoinColumn(name = "aluno_id")
     private Aluno aluno;
 
 }

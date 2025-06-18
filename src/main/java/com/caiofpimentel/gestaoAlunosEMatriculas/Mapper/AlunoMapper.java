@@ -23,7 +23,7 @@ public class AlunoMapper {
                 matricula.setCodigoMatricula(m.codigoMatricula());
                 matricula.setDataInicio(m.dataInicio());
                 matricula.setNomeCurso(m.nomeCurso());
-
+                matricula.setAluno(aluno); // Define o aluno na matrícula
                 return matricula;
         } ).toList();
         aluno.setMatriculas(matriculas);
